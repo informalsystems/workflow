@@ -52,7 +52,4 @@ Use, or not, at your own risk :)
 
 If you do, we'd love to hear from you at hello@informal.systems!
 
-
-
-[Collaborative Web paper]: https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf
 [Informal Organizations: Iterating on Cooperative Ownership]: https://informal.systems/2020/09/21/informal-owners/
