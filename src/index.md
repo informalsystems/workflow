@@ -41,7 +41,7 @@ In [this](https://informal.systems/2022/1/25/the-informal-system/) blog post, we
 
 Use, or not, at your own risk :)
 
-If you do, we'd love to hear from you at hello@informal.systems! 
+If you do, we'd love to hear from you at hello at informal dot systems! 
 
 
 
