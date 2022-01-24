@@ -30,7 +30,8 @@ facilitates trust. The model is straightforward to learn and can be put into
 practice immediately. The value of the model is only experienced over time, as
 it is used consistently and becomes interwoven with the organization's culture.
 
-By providing a language for talking about promises - about the stages of promisemaking and redemption - Workflow helps eliminate a lot of the ambiguity and
+By providing a language for talking about promises - about the stages of promisemaking and redemption -
+Workflow helps eliminate a lot of the ambiguity and
 awkwardness that can come from dealing with accountability. In doing so, it
 illuminates opportunities for improved organizational practices and designs.
 
@@ -48,6 +49,8 @@ teams, decision authorities, employee stewardship, KPIs, etc.
 ## Disclaimer
 
 Use, or not, at your own risk :)
+
+If you do, we'd love to hear from you at hello@informal.systems!
 
 
 
