@@ -41,6 +41,8 @@ In [this](https://informal.systems/2022/1/25/the-informal-system/) blog post, we
 
 Use, or not, at your own risk :)
 
+If you do, we'd love to hear from you at hello@informal.systems! 
+
 
 
 [Collaborative Web paper]: https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf
