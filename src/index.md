@@ -1,24 +1,34 @@
 # The Informal System (v0.1.0)
 
-This guide can help you setup, configure, and operate your organization.
+This guide can help you setup, configure, and operate your organization to be more collaborative.
 
-TODO; link to The Informal System blog post
+In [this](https://informal.systems/2022/1/25/the-informal-system/) blog post, we detail the theory and application of the Workflow model at Informal Systems. 
 
 ## Sections
 
 **[What is Workflow](./what-is-workflow.md)**
 
-- Explains what Workflow is all about.
+- Introduces the concept of a Workflow. 
 
 **[Workflow](./workflow.md)**
 
-- TODO
+- Establishes the theory of Workflow.   
 
-**TODO**
+**[Workflow](./planning.md)**
+
+- Explains how to plan for many Workflows at a time across a whole organization. 
+
+**[Roles](./roles.md)**
+
+- Outlines various roles within a Workflow, and beyond. 
+
+**[Meetings](./meetings.md)**
+
+- Explains how Workflows can be leveraged to make meetings effective. 
 
 **[Glossary](./glossary.md)**
 
-- This section provides some definitions of terms used throughout
+- This section provides some definitions of terms used throughout.
 
 ---
 
