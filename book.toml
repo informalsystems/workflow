@@ -3,7 +3,7 @@ authors = ["Informal Systems Inc."]
 language = "en"
 multilingual = false
 src = "src"
-title = "The Informal System"
+title = "Workflow"
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"

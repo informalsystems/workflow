@@ -1,6 +1,6 @@
 # Summary
 
-# The Informal System (v0.1.0)
+# Workflow (v0.1.0)
 
 - [Introduction](./index.md)
 - [How Workflow Works](./workflow.md)

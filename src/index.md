@@ -1,7 +1,8 @@
-# The Informal System (v0.1.0)
+# Workflow (v0.1.0)
 
-This guide introduces and lays out the Workflow system, as introduced in our [blog post]. It also gives some guidelines on how you can setup, configure, and operate this system in your organization.
-
+This guide introduced Workflow, a language for describing, diagnosing, and constructing organizations.
+It contains guidelines for using Workflow in your own organization.
+See also our introductory [blog post].
 
 ## What is Workflow?
 
@@ -10,7 +11,7 @@ accountability relationships within an organization. It is effectively a model
 for making and managing promises. It was taught to Informal by Melissa Angeli and Laura McKinney of Jaquarden Consulting, with
 powerful results.  Laura and Melissa were previously the CEO and Head of HR, respectively, for
 Galois, a successful R&D company in the US with an acclaimed organizational
-design, known as the [collaborative web][Collaborative Web paper]. Their paper on the subject describes
+design, known as the [collaborative web][The Collaborative Web paper]. Their paper on the subject describes
 common dysfunctions in management and leadership and how the collaborative web
 structure resolves them. It is well worth reading.
 
@@ -55,7 +56,7 @@ Use, or not, at your own risk :)
 
 If you do, we'd love to hear from you at hello@informal.systems!
 
-[Collaborative Web paper]: https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf
+[The Collaborative Web paper]: https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf
 [blog post]: https://informal.systems/2022/1/25/the-informal-system/
 [Informal Organizations: Iterating on Cooperative Ownership]: https://informal.systems/2020/09/21/informal-owners/
 

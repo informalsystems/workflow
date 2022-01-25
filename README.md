@@ -1,4 +1,4 @@
-# The Informal System
+# Workflow
 
 Description of The Informal System.
 
