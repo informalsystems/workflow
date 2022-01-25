@@ -2,11 +2,8 @@
 
 # The Informal System (v0.1.0)
 
-
----
 - [Introduction](./index.md)
-    - [What is Workflow?](./what-is-workflow.md)
-- [Workflow](./workflow.md)
+- [How Workflow Works](./workflow.md)
 - [Planning](./planning.md)
     - [Results](./results.md)
 	- [KPIs](./kpis.md)
@@ -16,4 +13,3 @@
 	- [Decision Authorities](./decision-authorities.md)
 - [Meetings](./meetings.md)
 - [Glossary](./glossary.md)
-

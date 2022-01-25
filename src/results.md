@@ -1,9 +1,6 @@
 # Results
 
-
-
-
-Defining good results is hard work. But every workflow negotiation should end
+Defining good results is hard work. But every Workflow negotiation should end
 in a promise to deliver some well defined results. Results should describe the
 actual outcome or value you want to create in the world. Often people put down
 outputs or activities, not outcomes. “Publish 5 papers” is an output, not an
@@ -18,7 +15,7 @@ why we want to publish 5 papers. Or is it?
 
 Often it’s recommended to pursue SMART results: Specific, Measurable,
 Attainable, Relevant, Time Bound. This can be helpful. Our results are by
-default time bound because they are part of time bound workflows. And we can
+default time bound because they are part of time bound Workflows. And we can
 make them measurable by finding some quantitative measure, like publishing 5
 papers. But we can make the result more specific and relevant by specifying:
 publish 5 papers in top distributed systems journals on applying verification
@@ -37,9 +34,9 @@ out of publishing some papers.
 One helpful way to think about defining results is by types of results. We
 identify four major categories of results:
 
-- Customer Value (CV) 
-- Adoption (A) 
-- Reputational (R) 
+- Customer Value (CV)
+- Adoption (A)
+- Reputational (R)
 - Sustainability (S).
 
 It helps to try and roughly balance the results for an objective across these
@@ -54,8 +51,8 @@ want to do these things? What outcome do I really want ? What value do I want
 to create in the world? Often it’s just a small change in phrasing that’s
 required. For instance, instead of “Promote cephalopod as a leading validator”,
 which is clearly an activity, a better result would be “Two independent news
-articles mention Cephalopod as a leading validator” or “<some measure of
-people> understand that cephalopod is a leading validator”.
+articles mention Cephalopod as a leading validator” or “a thousand people
+understand that Cephalopod is a leading validator”.
 
 At the end of the day, it’s less important what specific text you write for a
 result. The more important thing is the conversation you have with your team
@@ -67,4 +64,4 @@ improving coordination, getting us all resonating and rowing in the same
 directions.
 
 For some good resources on OKRs, see
-https://weekdone.com/resources/objectives-key-results
+[https://weekdone.com/resources/objectives-key-results](https://weekdone.com/resources/objectives-key-results)
