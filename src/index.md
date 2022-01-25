@@ -53,4 +53,5 @@ Use, or not, at your own risk :)
 
 If you do, we'd love to hear from you at hello@informal.systems!
 
+
 [Informal Organizations: Iterating on Cooperative Ownership]: https://informal.systems/2020/09/21/informal-owners/
