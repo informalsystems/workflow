@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Results - Workflow</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Workflow (v0.1.0)</li><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="workflow.html"><strong aria-hidden="true">2.</strong> How Workflow Works</a></li><li class="chapter-item expanded "><a href="planning.html"><strong aria-hidden="true">3.</strong> Planning</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="results.html" class="active"><strong aria-hidden="true">3.1.</strong> Results</a></li><li class="chapter-item expanded "><a href="kpis.html"><strong aria-hidden="true">3.2.</strong> KPIs</a></li></ol></li><li class="chapter-item expanded "><a href="roles.html"><strong aria-hidden="true">4.</strong> Roles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="stewardship.html"><strong aria-hidden="true">4.1.</strong> Stewardship</a></li><li class="chapter-item expanded "><a href="functional-teams.html"><strong aria-hidden="true">4.2.</strong> Functional Teams</a></li><li class="chapter-item expanded "><a href="decision-authorities.html"><strong aria-hidden="true">4.3.</strong> Decision Authorities</a></li></ol></li><li class="chapter-item expanded "><a href="meetings.html"><strong aria-hidden="true">5.</strong> Meetings</a></li><li class="chapter-item expanded "><a href="glossary.html"><strong aria-hidden="true">6.</strong> Glossary</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Workflow</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="results"><a class="header" href="#results">Results</a></h1>
+<p>Defining good results is hard work. But every Workflow negotiation should end
+in a promise to deliver some well defined results. Results should describe the
+actual outcome or value you want to create in the world. Often people put down
+outputs or activities, not outcomes. “Publish 5 papers” is an output, not an
+outcome. Why do you want to publish those posts? For what purpose? What outcome
+are you really looking for? What value do you want to create in the world?</p>
+<p>Activities are things we do. Outputs are things we produce from our activities.
+Outcomes are the value we create by our activities and outputs. Good results
+are outcomes. When defining OKRs, we want to focus on defining the real
+outcomes we want. This is often tricky and feels a bit contrived. It’s obvious
+why we want to publish 5 papers. Or is it?</p>
+<p>Often it’s recommended to pursue SMART results: Specific, Measurable,
+Attainable, Relevant, Time Bound. This can be helpful. Our results are by
+default time bound because they are part of time bound Workflows. And we can
+make them measurable by finding some quantitative measure, like publishing 5
+papers. But we can make the result more specific and relevant by specifying:
+publish 5 papers in top distributed systems journals on applying verification
+techniques to real world distributed systems.</p>
+<p>Ok, this is more specific and relevant and everything. But really, still, why
+do we want to do that? It’s still framed as a kind of output, not an outcome.
+An outcome tends to be something you have less control over - it’s the actual
+outcome you want to procure in the world. Sure, there’s peer review, so you
+can’t guarantee the paper will be published. But maybe a better result is “Have
+2 different members of the team get invited to speak at a top conference on
+formal verification in blockchain” - this doesn’t even say anything about how
+many papers to publish, but it gets at the heart of what we might actually want
+out of publishing some papers.</p>
+<p>One helpful way to think about defining results is by types of results. We
+identify four major categories of results:</p>
+<ul>
+<li>Customer Value (CV)</li>
+<li>Adoption (A)</li>
+<li>Reputational (R)</li>
+<li>Sustainability (S).</li>
+</ul>
+<p>It helps to try and roughly balance the results for an objective across these
+categories. Customer Value refers to the value we create for users. Adoption is
+about getting more people using our stuff. Reputational results increase our
+reputation in the world. Sustainability results show greater revenue or
+capacity within the team.</p>
+<p>If you’re struggling to write good results, write the activities you think you
+should perform and the outputs you think you should produce. Then ask, why do I
+want to do these things? What outcome do I really want ? What value do I want
+to create in the world? Often it’s just a small change in phrasing that’s
+required. For instance, instead of “Promote cephalopod as a leading validator”,
+which is clearly an activity, a better result would be “Two independent news
+articles mention Cephalopod as a leading validator” or “a thousand people
+understand that Cephalopod is a leading validator”.</p>
+<p>At the end of the day, it’s less important what specific text you write for a
+result. The more important thing is the conversation you have with your team
+around the result and the shared understanding you build around what you’re
+doing and why and what you plan to achieve in the next time horizon. OKRs are a
+tool for building shared understanding in the teams and across the company
+about what we’re doing and why, for the purpose of increasing autonomy and
+improving coordination, getting us all resonating and rowing in the same
+directions.</p>
+<p>For some good resources on OKRs, see
+<a href="https://weekdone.com/resources/objectives-key-results">https://weekdone.com/resources/objectives-key-results</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="planning.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="kpis.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="planning.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="kpis.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+
+
+    </body>
+</html>
