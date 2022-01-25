@@ -46,7 +46,10 @@ teams, decision authorities, employee stewardship, KPIs, etc.
 * [Informal Organizations: Iterating on Cooperative Ownership]
   — Blog post that provides more background context on how Informal is legally structured, including our
     research on alternative legal structures for organizations.
-
+* [The Informal System: Introducing Workflow](https://informal.systems/2022/1/25/the-informal-system/)
+  - Blog post motivating and introducing Workflow and announcing this guide!
+* [The Collaborative Web paper]
+  - Paper published by [Galois](https://galois.com/) on their internal organizational structure, a major source of inspiration for us
 ## Disclaimer
 
 Use, or not, at your own risk :)
@@ -54,4 +57,4 @@ Use, or not, at your own risk :)
 If you do, we'd love to hear from you at hello@informal.systems!
 
 
-[Informal Organizations: Iterating on Cooperative Ownership]: https://informal.systems/2020/09/21/informal-owners/
+[Collaborative Web paper]: https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf
