@@ -44,7 +44,8 @@ teams, decision authorities, employee stewardship, KPIs, etc.
 **Other References and Useful Links:**
 
 * [Informal Organizations: Iterating on Cooperative Ownership]
-  — Blog post that provides more background context on how this system is used at Informal
+  — Blog post that provides more background context on how Informal is legally structured, including our
+    research on alternative legal structures for organizations.
 
 ## Disclaimer
 
