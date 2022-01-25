@@ -23,19 +23,8 @@ cargo install mdbook-toc
 
 ### Building and viewing the guide locally
 
-In order to build and view the guide on your local machine, please follow this instructions.
-
-#### Change to the `guide` dir
-
-This assumes your current dir is the `ibc-rs` repository
-
-```bash
-cd guide
-```
-
-#### Build the guide
-
-To build and view the guide in your browser, run the `mdbook` command below:
+To build and view the guide in your browser, run the `mdbook serve` command from
+the root directory:
 
 ```bash
 mdbook serve
@@ -51,7 +40,7 @@ http://localhost:3000
 
 ## Adding or editing new content to the guide
 
-Please check the [mdBook documentation](https://rust-lang.github.io/mdBook/index.html) for additional information on how to add new content to the guide. 
+Please check the [mdBook documentation](https://rust-lang.github.io/mdBook/index.html) for additional information on how to add new content to the guide.
 
 Basically if you want to add new content to the guide, just add an entry to the `SUMMARY.md` Markdown file which is the TOC page. Then create a page for the entry you've added to the `SUMMARY.md` page. If you don't create the page, but save the `SUMMARY.md` file and build again, `mdBook` will create the page automatically for you.
 
