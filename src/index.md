@@ -1,8 +1,7 @@
 # The Informal System (v0.1.0)
 
-This guide introduces and lays out the Workflow system. It also gives some guidelines on how you can setup, configure, and operate this system in your organization.
+This guide introduces and lays out the Workflow system, as introduced in our [blog post]. It also gives some guidelines on how you can setup, configure, and operate this system in your organization.
 
----
 
 ## What is Workflow?
 
@@ -56,5 +55,7 @@ Use, or not, at your own risk :)
 
 If you do, we'd love to hear from you at hello@informal.systems!
 
-
 [Collaborative Web paper]: https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf
+[blog post]: https://informal.systems/2022/1/25/the-informal-system/
+[Informal Organizations: Iterating on Cooperative Ownership]: https://informal.systems/2020/09/21/informal-owners/
+
