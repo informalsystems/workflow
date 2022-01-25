@@ -14,7 +14,7 @@ In [this](https://informal.systems/2022/1/25/the-informal-system/) blog post, we
 
 - Establishes the theory of Workflow.   
 
-**[Workflow](./planning.md)**
+**[Planning](./planning.md)**
 
 - Explains how to plan for many Workflows at a time across a whole organization. 
 
