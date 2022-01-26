@@ -3,23 +3,35 @@
 Defining good results is hard work. But every Workflow negotiation should end
 in a promise to deliver some well defined results. Results should describe the
 actual outcome or value you want to create in the world. Often people put down
-outputs or activities, not outcomes. “Publish 5 papers” is an output, not an
+outputs or activities, not outcomes. “Publish 5 articles” is an output, not an
 outcome. Why do you want to publish those posts? For what purpose? What outcome
 are you really looking for? What value do you want to create in the world?
 
 Activities are things we do. Outputs are things we produce from our activities.
-Outcomes are the value we create by our activities and outputs. Good results
-are outcomes. When defining OKRs, we want to focus on defining the real
-outcomes we want. This is often tricky and feels a bit contrived. It’s obvious
-why we want to publish 5 papers. Or is it?
+Outcomes are the value we create by our activities and outputs. 
+Generally we can control our activities and our outputs. But its harder to
+control the outcomes. That's what makes good results outcomes. 
+
+| Element | Description |
+|---|----|
+| Activities | Things we do |
+| Outputs | Artifacts we produce |
+| Results | Outcomes we create in the world |
+
+When defining OKRs (or more broadly, negotiating promises), 
+we want to focus on defining the real
+outcomes we want. How do you want your outputs and activities to change the world? 
+This is often tricky and feels a bit contrived. It’s obvious
+why we want to publish 5 articles. Or is it?
 
 Often it’s recommended to pursue SMART results: Specific, Measurable,
-Attainable, Relevant, Time Bound. This can be helpful. Our results are by
+Attainable, Relevant, Time Bound. This can be helpful. Results in the Workflow context are by
 default time bound because they are part of time bound Workflows. And we can
-make them measurable by finding some quantitative measure, like publishing 5
-papers. But we can make the result more specific and relevant by specifying:
-publish 5 papers in top distributed systems journals on applying verification
-techniques to real world distributed systems.
+make them measurable by finding some quantitative measure, like our 5
+articles. But we can make the result more specific and relevant by specifying
+who we're creating value for, and what kind of value we're creating for them:
+"publish 5 articles in top distributed systems journals on the use of formal
+verification".
 
 Ok, this is more specific and relevant and everything. But really, still, why
 do we want to do that? It’s still framed as a kind of output, not an outcome.
@@ -29,7 +41,9 @@ can’t guarantee the paper will be published. But maybe a better result is “H
 2 different members of the team get invited to speak at a top conference on
 formal verification in blockchain” - this doesn’t even say anything about how
 many papers to publish, but it gets at the heart of what we might actually want
-out of publishing some papers.
+out of publishing some papers. We could of course go further and ask why we even
+want that - what outcomes do we want out of presenting at the conference? But
+we'll stop there for now. The important point is just to have the conversations!
 
 One helpful way to think about defining results is by types of results. We
 identify four major categories of results:
@@ -61,7 +75,7 @@ doing and why and what you plan to achieve in the next time horizon. OKRs are a
 tool for building shared understanding in the teams and across the company
 about what we’re doing and why, for the purpose of increasing autonomy and
 improving coordination, getting us all resonating and rowing in the same
-directions.
+directions. 
 
 For some good resources on OKRs, see
 [https://weekdone.com/resources/objectives-key-results](https://weekdone.com/resources/objectives-key-results)

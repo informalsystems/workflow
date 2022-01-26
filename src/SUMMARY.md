@@ -3,7 +3,7 @@
 # Workflow (v0.1.0)
 
 - [Introduction](./index.md)
-- [How Workflow Works](./workflow.md)
+- [The Workflow Cycle](./workflow.md)
 - [Planning](./planning.md)
     - [Results](./results.md)
 	- [KPIs](./kpis.md)
