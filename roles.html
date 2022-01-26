@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Workflow (v0.1.0)</li><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="workflow.html"><strong aria-hidden="true">2.</strong> How Workflow Works</a></li><li class="chapter-item expanded "><a href="planning.html"><strong aria-hidden="true">3.</strong> Planning</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="results.html"><strong aria-hidden="true">3.1.</strong> Results</a></li><li class="chapter-item expanded "><a href="kpis.html"><strong aria-hidden="true">3.2.</strong> KPIs</a></li></ol></li><li class="chapter-item expanded "><a href="roles.html" class="active"><strong aria-hidden="true">4.</strong> Roles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="stewardship.html"><strong aria-hidden="true">4.1.</strong> Stewardship</a></li><li class="chapter-item expanded "><a href="functional-teams.html"><strong aria-hidden="true">4.2.</strong> Functional Teams</a></li><li class="chapter-item expanded "><a href="decision-authorities.html"><strong aria-hidden="true">4.3.</strong> Decision Authorities</a></li></ol></li><li class="chapter-item expanded "><a href="meetings.html"><strong aria-hidden="true">5.</strong> Meetings</a></li><li class="chapter-item expanded "><a href="glossary.html"><strong aria-hidden="true">6.</strong> Glossary</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Workflow (v0.1.0)</li><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="workflow.html"><strong aria-hidden="true">2.</strong> The Workflow Cycle</a></li><li class="chapter-item expanded "><a href="planning.html"><strong aria-hidden="true">3.</strong> Planning</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="results.html"><strong aria-hidden="true">3.1.</strong> Results</a></li><li class="chapter-item expanded "><a href="kpis.html"><strong aria-hidden="true">3.2.</strong> KPIs</a></li></ol></li><li class="chapter-item expanded "><a href="roles.html" class="active"><strong aria-hidden="true">4.</strong> Roles</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="stewardship.html"><strong aria-hidden="true">4.1.</strong> Stewardship</a></li><li class="chapter-item expanded "><a href="functional-teams.html"><strong aria-hidden="true">4.2.</strong> Functional Teams</a></li><li class="chapter-item expanded "><a href="decision-authorities.html"><strong aria-hidden="true">4.3.</strong> Decision Authorities</a></li></ol></li><li class="chapter-item expanded "><a href="meetings.html"><strong aria-hidden="true">5.</strong> Meetings</a></li><li class="chapter-item expanded "><a href="glossary.html"><strong aria-hidden="true">6.</strong> Glossary</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -145,27 +145,29 @@
                         <h1 id="roles"><a class="header" href="#roles">Roles</a></h1>
 <p>Workflow provides a way to construct roles from the bottom-up by understanding
 a role as an abstraction over repeated workflows. Any role can be defined by
-the kinds of Workflows it is engaged in.</p>
+the pattern of Workflows it is engaged in.</p>
 <p>We prefer not to use the term “manager” as it is overloaded and comes with many
 connotations. Management is effectively a collection of a number of distinct
-concerns which may be better understood as distinct roles. Management on a
-project can usually be decomposed into three distinct functions: Product,
-Project, and People. Product Management takes care of what to build, Project
-Management takes care of building it on time, and People Management takes care
-of the people. All three functionalities are critical, but it is extremely rare
+concerns which may be better understood as distinct roles. This is the crux of
+the <a href="https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf">Collaborative Web paper</a>. Management can be commonly decomposed 
+into at least three distinct functions: Product, Project, and People. There is also
+a separate function of Technical leadership, which is often confounded
+distressingly with these other three functions of management. We define the
+following roles for these four functions of managemnent:</p>
+<table><thead><tr><th>Role</th><th>Concern</th><th>Focus</th><th>Project Specific</th></tr></thead><tbody>
+<tr><td>Product Owner</td><td>Determine the right thing to build.</td><td>Users</td><td>Yes</td></tr>
+<tr><td>Project Lead</td><td>Build the thing on time.</td><td>Coordination</td><td>Yes</td></tr>
+<tr><td>Technical Lead</td><td>Build the thing well.</td><td>Tech</td><td>Yes</td></tr>
+<tr><td>Steward</td><td>Take care of the people</td><td>People</td><td>No</td></tr>
+</tbody></table>
+<p>Notice that the Product, Project, and Technical concerns are project
+specific. But the People concern is not - it's a concern for the actual human
+beings, not the project they happen to be working on. The 
+<a href="/stewardship.html">Stewardship</a> section provides more detail.</p>
+<p>All of these functions are critical, but it is extremely rare
 for a single individual to have the time, let alone the skills, to provide all
-of them. Thus, it is recommended that they be understood as three distinct roles
-and that any individual be responsible for at most two. In addition to these
-three functions of management, there is also the function of technical
-leadership.</p>
-<p>Thus, in line with this understanding and with common experience, we recognize
-three key leadership roles for each project, which in a mature project are
-expected to be full-time roles played by distinct individuals.</p>
-<h3 id="list-of-roles"><a class="header" href="#list-of-roles">List of Roles</a></h3>
-<p>Product Owner - Determine the right thing to build. Focus on the Users</p>
-<p>Concern:  Building products that are used by customers, understanding what is
-important to users/customers + relevant to the market.</p>
-<p>TODO charts? fill in the rest</p>
+of them. Thus, it is recommended that they be understood as distinct roles
+and that any individual be responsible for at most two. </p>
 
                     </main>
 
