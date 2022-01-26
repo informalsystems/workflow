@@ -23,7 +23,7 @@ following roles for these four functions of managemnent:
 Notice that the Product, Project, and Technical concerns are project
 specific. But the People concern is not - it's a concern for the actual human
 beings, not the project they happen to be working on. The 
-[Stewardship](/stewardship.html) section provides more detail.
+[Stewardship](/workflow/stewardship.html) section provides more detail.
 
 All of these functions are critical, but it is extremely rare
 for a single individual to have the time, let alone the skills, to provide all

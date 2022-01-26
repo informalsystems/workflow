@@ -69,7 +69,7 @@ Bob! So Customership is an active job. It involves clearly articulating a concer
 helpfully negotiating on results, checking in regularly, and providing helpful feedback. 
 
 Many Workflows will often remain implicit, and repeated patterns of Workflows
-tend to become abstracted into [“roles”](/roles.html). The activity of an organization is
+tend to become abstracted into [“roles”](/workflow/roles.html). The activity of an organization is
 essentially its collection of Workflows. We can use the Workflow language to
 diagnose and improve communication as necessary, and to organize our overall
 planning.

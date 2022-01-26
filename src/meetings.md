@@ -17,7 +17,7 @@ articulate what outcomes you really want out of the meeting:
 - What value are we trying to create out of this meeting? 
 - What do we want to be able to do when the meeting is over that we couldn’t do before? 
 
-The [results section of the guide](/results.html) is helpful here. For each item on your
+The [results section of the guide](/workflow/results.html) is helpful here. For each item on your
 agenda, state the Outcome you're looking for, and the time you're allocating to
 achieve it:
 

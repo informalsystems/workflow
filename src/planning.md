@@ -3,7 +3,7 @@
 
 
 We have already alluded to the idea that 
-the promise made at the end of the [Negotiation phase (Q2) of the Workflow](/workflow.html#the-four-phases-of-workflow)
+the promise made at the end of the [Negotiation phase (Q2) of the Workflow](/workflow/workflow.html#the-four-phases-of-workflow)
 can be viewed like an OKR: the Customer holds the Objective, and the Performer promises to deliver on some Results. 
 This can be operationalized into
 planning for the whole company.
