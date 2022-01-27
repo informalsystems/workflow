@@ -27,6 +27,8 @@ Agenda
 - Discuss Hiring [10 Min]. Outcome: decide if we should make an offer to Jelena
 ```
 
+You'll be thrilled to know we hired her. She helped write this guide :).
+
 Q3 is the meeting execution, where meeting participants seek to deliver the
 results they negotiated in the agenda during Q2. It’s important to pay attention
 to time, refocus on the outcomes you’re seeking as necessary, and set action
