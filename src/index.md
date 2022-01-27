@@ -8,7 +8,8 @@ It was taught to us, Informal Systems, by Melissa Angeli and Laura McKinney of J
 Galois, a successful R&D company in the US with an acclaimed organizational
 design, known as the [collaborative web][The Collaborative Web paper]. Their paper on the subject describes
 common dysfunctions in management and leadership and how the collaborative web
-structure resolves them. It is well worth reading.
+structure resolves them. It is well worth reading. The Workflow model comes from [Fernando Flores](https://en.wikipedia.org/wiki/Fernando_Flores) 
+and his [Conversations for Action](https://conversationsforaction.com/); his seminal thinking and guidance made Melissa and Laura’s work possible. 
 
 At Informal we feel that workflow is a language for organizing and scaling
 organizations and we believe it can provide tremendous value to companies
