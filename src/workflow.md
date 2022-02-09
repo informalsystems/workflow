@@ -3,23 +3,26 @@
 A Workflow is a relationship between two agents, usually two individuals within
 an organization, which we call the “Customer” and the “Performer”. 
 The Customer is someone who holds a concern, an
-objective regarding some outcome they seek in the world. Through negotiation
-with the Customer, the Performer makes a promise to fulfil that concern, to
+objective regarding some outcome they seek in the world. The Performer
+negotiates with the Customer, making a promise to fulfil that concern, to
 deliver results that satisfy the objective. Throughout the relationship, the
 **Customer is responsible for the Performer's success**.
 
 In some sense, as you'll see throughout the guide, Workflow can be considered a more general model 
 for understanding and successfully utilizing OKRs. But it's not just about OKRs,
 its about the general pattern of negotiating promises of different scope and
-over different time horizons.
+over different time horizons. Where OKRs can sometimes feel like "OKRs for OKRs'
+sake, workflow language grounds the OKR process in a continuous cycle, with
+clear accountability, and with a focus on the conversations that help us
+understand what we're trying to do together.
 
 ## The Four Phases of Workflow
 
 A Workflow is a cycle, made up of four quadrants: Listen, Negotiate,
 Execute, Assess. At a high level, the quadrants are as follows:
 
-1. Listening (Q1): A customer articulates a need, making  request for help achieving
-   their objective and a performer, hearing the need, makes an offer proposing a
+1. Listening (Q1): A customer articulates a need, making a request for help to achieve
+   their objective, and a performer, hearing the request, makes an offer proposing a
    way to satisfy the need. They listen to each other to develop a shared
    understanding of the objective and decide if they would be a good fit to work
    together.
