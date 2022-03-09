@@ -1,8 +1,14 @@
 # Roles
 
 Workflow provides a way to construct roles from the bottom-up by understanding
-a role as an abstraction over repeated workflows. Any role can be defined by
-the pattern of Workflows it is engaged in.
+a role as an abstraction over repeated workflows. A role is just a collection of
+workflows. Any role can be defined by the workflows a person in that role participates in,
+ie. all the results they are customer or performer for. Every role should be a
+customer on some workflows and a performer on others. 
+
+Additionally, beyond the specific results, a role should include the
+competencies and the [decision authorities](/decision-authorities.html)
+required to be successful in those workflows.
 
 We prefer not to use the term “manager” as it is overloaded and comes with many
 connotations. Management is effectively a collection of a number of distinct
@@ -23,11 +29,11 @@ following roles for these four functions of managemnent:
 Notice that the Product, Project, and Technical concerns are project
 specific. But the People concern is not - it's a concern for the actual human
 beings, not the project they happen to be working on. The 
-[Stewardship](/workflow/stewardship.html) section provides more detail.
+[Stewardship](/stewardship.html) section provides more detail.
 
 All of these functions are critical, but it is extremely rare
 for a single individual to have the time, let alone the skills, to provide all
 of them. Thus, it is recommended that they be understood as distinct roles
-and that any individual be responsible for at most two. 
+and that any individual be responsible for at most two (and ideally, one!).
 
 [Collaborative Web paper]: https://galois.com/wp-content/uploads/2016/06/CW-picmet-proceedings.pdf
