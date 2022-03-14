@@ -1,81 +1,74 @@
-# Planning
+# Planning Guidelines
 
+Planning is a way to organize ourselves, to create explicit expectations and transparency, negotiate promises, and have a direction of what we’re working on for the quarter and the year ahead!
 
+This document is intended to be a lightweight guide on how to approach planning.
 
-We have already alluded to the idea that 
-the promise made at the end of the [Negotiation phase (Q2) of the Workflow](/workflow.html#the-four-phases-of-workflow)
-can be viewed like an OKR: the Customer holds the Objective, and the Performer promises to deliver on some Results. 
-This can be operationalized into
-planning for the whole company.
+Put at least 2 hours aside to start, below are some guiding steps for planning.
 
-A company consists of many Workflows at a time. These Workflows themselves can
-correspond to different time horizons. For instance, in a small company, the CEO may be on a three year
-Workflow with the board (ie. making a three year promise), while a more junior
-employee is only on three month Workflows (ie. only making three month promises) with some
-project lead. Project leads themselves might be on one year workflows, perhaps
-making promises to the CEO, and so on.
+## Step 1: Retros
 
-This cascading time structure can be used to organize and plan OKRs for the
-whole company by articulating objectives at different time horizons and
-conceptualizing each one as a workflow, with a dedicated Customer and Performer
-at each stage. For instance, there may be a single three year Workflow where the
-CEO is the Performer and the Board of Directors is the Customer. At this point, the CEO
-is the only one able to make a three year commitment to the board. 
-This three year promise captures the broadest scope and longest term objective for the company,
-what it needs to achieve in the world in the next three years.
+Always start with a retro on your last quarter, what did you achieve, what didn’t you achieve, why, what can we do differently next time? Use the take-aways to inform your planning session.
 
-Others, who are able to make promises on a smaller time horizon (i.e. the CTO on one year)
-would be the Performer for the CEO, who would now take on the role of a
-Customer on the shorter workflow. The CTO knows that the CEO has made a longer term commitment to the
-Board, so the CTO works with the CEO to make a series of one year promises which
-will help the CEO fulfil their three year promises to the Board. In turn the CTO may be a
-Customer on other Workflows with other members of the team, like individual engineers, on one year or three month time horizons.
+## Step 2: Outputs
 
-In this way, the Performer in a Workflow at one time horizon is often the
-Customer for a Workflow on a smaller time horizon. For instance, the CEO makes
-three year promises to the board, the CTO makes one year promises to the CEO, and an
-engineer makes three month promises to the CTO.
+Come to a planning session with the big outputs you know you have to focus on for the upcoming quarter (ship this feature, launch the new website, create a finance manual etc etc etc).
 
-| Time Horizon | Customer | Performer | Results  |
-|---------| ---------- | ---       | --- | 
-| 3 Years | Board | **CEO** | Make the Company Awesome  |
-| 1 Year | **CEO** | CTO | Build Awesome Tech for the Company  |
-| 3 Months | CTO | Engineer | Implement Awesome Feature | 
+Outputs are things that you deliver that take up your time. We can think of different types of outputs as rocks, pebbles and sand. Say your work time is a bucket, there is only so much time and space in the glass and you can fill it with different outputs.
+Rocks are the big things that are important; they take up most of your bucket.
+Pebbles are smaller things, day to day, still important but not as important as the rocks.
+Sand is everything in between, the emails you send, the things you fix, the small things that emerge on a daily basis.
 
-Notice how the Performer on one time horizon (eg. the CEO on the 3 year) is the customer on the next (eg. the CEO on the 1 year)the CEO o..
+We all have each but in general we don’t need to include the sand and most pebbles in planning.
 
-By mapping out the set of Workflows for
-the company’s core objectives and projects, we can get clarity over the
-accountability structure without needing to invoke “reporting lines” and
-“management”. Instead, we get an effectively equivalent but more explicit model
-of how the company is organized based on the kinds of promises people make, to
-who, and over what time horizon. This then directly illuminates a trajectory to
-scaling the organizational design, by empowering people to make promises of broader or narrower scope,
-and of shorter or longer time horizons. “Hierarchy” emerges here from the explicit responsibilities people are
-willing to take in terms of the scope and time-horizon of promises they are willing to
-make.
+Come to a planning session with the idea of the rocks or big outputs you know you have to achieve over the quarter. Start there and lay it out, think about how much time each of these things will take, make sure you can articulate WHY these activities are important, but we will get to that.
 
-In the end, the goal is for every employee to be asking themselves: “what
-promises do I want to make, to whom, and on what time horizon? And what promises
-do I want made to me, by whom, and on what time frame?”
+## Step 3: Review Objectives
 
-For any given time horizon, say three months, there may be multiple interlocking
-Workflows. For instance, a Product Owner will make a three month promise to the
-CEO, while engineers make a three month promise to the Product Owner. The
-Product Owner is now a Customer for the Engineers who are Performers.
+Look at your objectives for your team, are they still relevant this quarter? Objectives don’t change that frequently, but they may.
 
-| Time Horizon | Customer | Performer | Results  |
-|---------| ---------- | ---       | --- | 
-| 1 year | CEO | Product Owner | Ship an Awesome Product  |
-| 1 year | Product Owner | Engineer 1 | Implement Part of Awesome Product | 
-| 1 year | Product Owner | Engineer 2 | Implement Part of Awesome Product | 
+Are you still focused on achieving the same objectives? Do you have a clear understanding of why those objectives are important and how they fit within the company goals?
 
-Promises contained within Workflows between various Customers and Performers are
-necessarily dependant on each other, and thus their Workflow negotiations are
-"interlocking". This process of surfacing dependancies between Workflows will
-take place during the negation phase in Q2. For promises to be properly
-manifested, negotiations will need to take place with other team members. Often
-times, many promises will be negotiated at the same time and become
-interdependent with each other.  The planning process for the company thus
-consists of settling interlocking workflows during negotiations so that everyone
-can make a set of aligned promises for their time horizon.
+Not all objectives need to roll up perfectly into a “company objective”, we are building a web not a hierarchy, some things on a 3 month basis may be more loosely related to company objectives but they are need to have a clear story as to why this objective is important for the team, for the company and is helping to achieve the vision of Informal.
+
+Think about this as you review objectives, do I know how this relates to the long term goals of the company? If you can’t answer that question, just ask anyone who is a customer on a 1 year goal.
+
+## Step 4: Results/Outcomes
+
+Now that you’ve reviewed your objectives and have a sense of the big “rock” outputs you’re focusing on for the quarter, time to negotiate and write quarterly results. You know what you have capacity to do, now start to think about the outcomes you’re trying to achieve.
+
+Defining good results is hard but every Workflow negotiation should end in a promise to deliver some well defined results. Results should describe the actual outcome or value you want to create in the world. Often people put down outputs or activities, not outcomes. “Publish 5 articles” is an output, not an outcome. Why do you want to publish those posts? For what purpose? What outcome are you really looking for? What value do you want to create in the world?
+
+Activities are things we do. Outputs are things we produce from our activities. Outcomes are the value we create by our activities and outputs. Generally we can control our activities and our outputs. But it's harder to control the outcomes. That's what makes good results outcomes.
+
+| Element    | Description                     |
+| ---------- | ------------------------------- |
+| Activities | Things we do                    |
+| Outputs    | Artifacts we produce            |
+| Results    | Outcomes we create in the world |
+
+You can read more about how to write results here: [https://workflow.informal.systems/results.html](https://workflow.informal.systems/results.html)
+
+You know the big rock level outputs you need to focus on, if you’re struggling to write the result, start with the activities you think you should perform and the outputs you think you should produce. Then ask, why do I want to do these things? What outcome do I really want ? What value do I want to create in the world? Often it’s just a small change in phrasing that’s required.
+
+For instance, instead of “Promote cephalopod as a leading validator”, which is clearly an activity, a better result would be “Two independent news articles mention Cephalopod as a leading validator” or “a thousand people understand that Cephalopod is a leading validator”.
+
+**At the end of the day, it’s less important what specific text you write for a result. The more important thing is the conversation you have with your team around the result and the shared understanding you build around what you’re doing and why and what you plan to achieve in the next time horizon.**
+
+OKRs are a tool for building shared understanding in the teams and across the company about what we’re doing and why, for the purpose of increasing autonomy and improving coordination, getting us all resonating and rowing in the same directions.
+
+Remember every result is a workflow negotiation between two people, you are making a promise to someone to achieve a result in a given timeframe. If you know you don’t have the capacity to do something, don’t make the promise and don’t make it a result. A planning session is a dynamic negotiation between a team about what they will all be working on for the quarter.
+
+Also remember planning is dynamic, it changes every quarter but every individual has a certain percentage of their time working on “role based” results and activities. For example, we don’t add “run payroll” as part of the quarterly planning, it is a steady state requirement of the Finance Manager role, though it takes up time. Don’t forget about these role based results and activities and how that impacts your time, capacity and promises you make.
+
+## Step 5: Step Away and Come Back Later
+
+Step away from the plans, leave them alone for a couple days. Then revisit it, does it all still make sense? Is this all achievable? Have we over/under estimated our time? Make updates before you finalize them.
+
+## Step 6: Lock
+
+We “lock” the plans in order to look back and have retros about what we did and didn’t know, what changed.
+
+## Step 7: Maintain
+
+On an ongoing basis revisit your planning, whether you do it on a team meeting, in github, make sure you stay up to date with the results and promises your team made for the quarter so you can evaluate your planning skills in order to get better over time.
